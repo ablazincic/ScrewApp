@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ScrewAppDBModelStoreContainer" CdmEntityContainer="ScrewAppDBEntities">
+    <EntitySetMapping Name="Screw">
+      <EntityTypeMapping TypeName="ScrewAppDBModel.Screw">
+        <MappingFragment StoreEntitySet="Screw">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="sName" ColumnName="sName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,18 @@
+﻿<Window x:Class="ScrewApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ScrewApp"
+        mc:Ignorable="d"
+        Title="ScrewApp" Height="450" Width="800" Icon="/icon/screw.png" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FF212529">
+        <Label Content="Dobrodošli na ScrewApp!" HorizontalAlignment="Center" Margin="0,106,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="SF Pro Display" FontWeight="Bold" Foreground="White"/>
+        <Label x:Name="LblIspis" Content="Ispiši (PDF)" HorizontalAlignment="Left" Margin="175,210,0,0" VerticalAlignment="Top"  FontSize="18" FontFamily="SF Pro Display" Foreground="#FFA4D3E2" Cursor="Hand" MouseEnter="LblIspis_MouseEnter_1" MouseLeave="LblIspis_MouseLeave_1" MouseLeftButtonDown="LblIspis_MouseLeftButtonDown_1"/>
+        <Label x:Name="lblIzmjena" Content="Izmjena/Brisanje/Ažuriranje" HorizontalAlignment="Left" Margin="455,210,0,0" VerticalAlignment="Top" FontFamily="SF Pro Display" FontSize="18" MouseEnter="lblIzmjena_MouseEnter" MouseLeave="lblIzmjena_MouseLeave" MouseLeftButtonDown="lblIzmjena_MouseLeftButtonDown" Cursor="Hand" Foreground="#FFA4D3E2"/>
+        <Label x:Name="lblPretraga" Content="Pretraga vijka" HorizontalAlignment="Left" Margin="302,210,0,0" VerticalAlignment="Top" FontFamily="SF Pro Display" FontSize="18" MouseEnter="lblPretraga_MouseEnter" MouseLeave="lblPretraga_MouseLeave" MouseLeftButtonDown="lblPretraga_MouseLeftButtonDown" Cursor="Hand" Foreground="#FFA4D3E2"/>
+        <Label Content="Copyright ©ablazincic 2024" HorizontalAlignment="Center" Margin="0,373,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="SF Pro Display" Foreground="White"/>
+        <Label Content="(odaberite jednu od opcija )" HorizontalAlignment="Center" Margin="0,151,0,0" VerticalAlignment="Top" FontSize="11" FontFamily="SF Pro Display" Foreground="White"/>
+        <Image x:Name="splashPhoto" HorizontalAlignment="Left" Height="60" Margin="366,36,0,0" VerticalAlignment="Top" Width="60" Source="/icon/screw.png"/>
+    </Grid>
+</Window>

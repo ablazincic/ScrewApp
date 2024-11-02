@@ -1,0 +1,58 @@
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\bin\Debug\ScrewAppDB.mdf
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\bin\Debug\ScrewAppDB_log.ldf
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\bin\Debug\ScrewApp.exe.config
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\bin\Debug\ScrewApp.exe
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\bin\Debug\ScrewApp.pdb
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\bin\Debug\EntityFramework.dll
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\bin\Debug\EntityFramework.xml
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\obj\Debug\ScrewApp.csproj.AssemblyReference.cache
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\obj\Debug\MainWindow.g.cs
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\obj\Debug\App.g.cs
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\obj\Debug\ScrewApp_Content.g.cs
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\obj\Debug\ScrewApp_MarkupCompile.cache
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\obj\Debug\ScrewApp_MarkupCompile.lref
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\obj\Debug\MainWindow.baml
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\obj\Debug\ScrewApp.g.resources
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\obj\Debug\ScrewApp.Properties.Resources.resources
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\obj\Debug\ScrewApp.csproj.GenerateResource.cache
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\obj\Debug\ScrewApp.csproj.CoreCompileInputs.cache
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\obj\Debug\ScrewApp.csproj.Up2Date
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\obj\Debug\ScrewApp.exe
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\obj\Debug\ScrewApp.pdb
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\obj\Debug\IspisWindow.g.cs
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\obj\Debug\IspisWindow.baml
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\obj\Debug\PretragaWindow.g.cs
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\obj\Debug\PretragaWindow.baml
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\obj\Debug\IzmjenaWindow.g.cs
+D:\Projects\Visual Studio\ScrewApp\photo\ScrewApp\obj\Debug\IzmjenaWindow.baml
+C:\Users\anton\Desktop\ScrewApp\bin\Debug\ScrewAppDB.mdf
+C:\Users\anton\Desktop\ScrewApp\bin\Debug\ScrewAppDB_log.ldf
+C:\Users\anton\Desktop\ScrewApp\bin\Debug\ScrewApp.exe.config
+C:\Users\anton\Desktop\ScrewApp\bin\Debug\ScrewApp.exe
+C:\Users\anton\Desktop\ScrewApp\bin\Debug\ScrewApp.pdb
+C:\Users\anton\Desktop\ScrewApp\bin\Debug\EntityFramework.dll
+C:\Users\anton\Desktop\ScrewApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\anton\Desktop\ScrewApp\bin\Debug\EntityFramework.xml
+C:\Users\anton\Desktop\ScrewApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp.csproj.AssemblyReference.cache
+C:\Users\anton\Desktop\ScrewApp\obj\Debug\IspisWindow.g.cs
+C:\Users\anton\Desktop\ScrewApp\obj\Debug\IzmjenaWindow.g.cs
+C:\Users\anton\Desktop\ScrewApp\obj\Debug\MainWindow.g.cs
+C:\Users\anton\Desktop\ScrewApp\obj\Debug\PretragaWindow.g.cs
+C:\Users\anton\Desktop\ScrewApp\obj\Debug\App.g.cs
+C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp_Content.g.cs
+C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp_MarkupCompile.cache
+C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp_MarkupCompile.lref
+C:\Users\anton\Desktop\ScrewApp\obj\Debug\IspisWindow.baml
+C:\Users\anton\Desktop\ScrewApp\obj\Debug\IzmjenaWindow.baml
+C:\Users\anton\Desktop\ScrewApp\obj\Debug\MainWindow.baml
+C:\Users\anton\Desktop\ScrewApp\obj\Debug\PretragaWindow.baml
+C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp.g.resources
+C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp.Properties.Resources.resources
+C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp.csproj.GenerateResource.cache
+C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp.csproj.CoreCompileInputs.cache
+C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp.csproj.Up2Date
+C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp.exe
+C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp.pdb
