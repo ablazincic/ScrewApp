@@ -23,7 +23,11 @@ namespace ScrewApp
         {
             InitializeComponent();
             this.Closing += IzmjenaWindow_Closing;
+            listBoxScrew.Foreground = (Brush)new BrushConverter().ConvertFrom("#fff");
+            Refresh();
+            
         }
+        static ScrewAppDBEntities context = new ScrewAppDBEntities();
 
         private void IzmjenaWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
@@ -34,6 +38,56 @@ namespace ScrewApp
             var window = new MainWindow();
             window.Show();
 
+        }
+
+        private void btnDodaj_Click(object sender, RoutedEventArgs e)
+        {
+            if (txtNaziv.Text != "")
+            {
+                Screw s = new Screw();
+
+                s.sName = txtNaziv.Text;
+
+               
+                    context.Screw.Add(s);
+                    context.SaveChanges();
+                
+               
+                Refresh();
+
+            }
+            txtNaziv.Clear();
+        }
+
+        public void Refresh()
+        {
+            listBoxScrew.Items.Clear();
+
+            foreach (var s in context.Screw.ToList() )
+            {
+                listBoxScrew.Items.Add(s);
+            }
+
+        }
+
+        private void btnIzbrisi_Click(object sender, RoutedEventArgs e)
+        {
+            if (listBoxScrew.SelectedIndex!=-1)
+            {
+                Screw DScrew = listBoxScrew.SelectedItem as Screw;
+
+                foreach (var s in context.Screw.ToList())
+                {
+                    if (s.ID == DScrew.ID)
+                    {
+                        context.Screw.Remove(s);
+                        context.SaveChanges();
+                        Refresh();
+                        break;
+                    }
+                }
+            }
+           
         }
     }
 }

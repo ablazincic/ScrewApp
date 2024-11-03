@@ -8,5 +8,20 @@
         Title="IzmjenaWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <Grid Background="#FF212529">
         <Label Content="Copyright ©ablazincic 2024" HorizontalAlignment="Center" Margin="0,373,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="SF Pro Display" Foreground="White"/>
+        <Button x:Name="btnDodaj" Content="Dodaj" HorizontalAlignment="Left" Margin="160,124,0,0" VerticalAlignment="Top" Width="80" Height="30" FontSize="15" FontWeight="Bold" FontFamily="SF Pro Display" Click="btnDodaj_Click"/>
+        <TextBox x:Name="txtNaziv" HorizontalAlignment="Left" Margin="134,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130" Height="24"/>
+        <Label Content="Naziv vijka" HorizontalAlignment="Left" Margin="37,80,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="SF Pro Display" Foreground="White" FontWeight="Bold"/>
+        <ListBox x:Name="listBoxScrew" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="515,33,36,252" Background="#FF3A3F42" RenderTransformOrigin="0.5,0.5" FontFamily="SF Pro Display" FontSize="16">
+            <ListBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ListBox.RenderTransform>
+        </ListBox>
+        <Button x:Name="btnIzbrisi" Content="Izbriši" HorizontalAlignment="Left" Margin="665,0,0,0" VerticalAlignment="Center" Width="80" Height="30" FontFamily="SF Pro Display" FontWeight="Bold" FontSize="15" Click="btnIzbrisi_Click"/>
+        <Button x:Name="btnAzuriraj1" Content="Ažuriraj" HorizontalAlignment="Left" Margin="530,0,0,0" VerticalAlignment="Center" Width="80" Height="30" FontFamily="SF Pro Display" FontWeight="Bold" FontSize="15"/>
     </Grid>
 </Window>

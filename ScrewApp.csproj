@@ -186,6 +186,7 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="icon\screw.png" />
+    <Resource Include="screw-photos\din 933 m6x10 8,8 zn.png" />
     <Content Include="ScrewAppDB.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
