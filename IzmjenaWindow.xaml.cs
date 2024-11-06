@@ -42,7 +42,7 @@ namespace ScrewApp
 
         private void btnDodaj_Click(object sender, RoutedEventArgs e)
         {
-            if (txtNaziv.Text != "")
+            if (txtNaziv.Text != "" && !txtNaziv.Text.Contains("/"))
             {
                 Screw s = new Screw();
 
@@ -54,9 +54,14 @@ namespace ScrewApp
                 
                
                 Refresh();
-
+                txtNaziv.Clear();
             }
-            txtNaziv.Clear();
+            else
+            {
+                txtNaziv.Clear();
+                MessageBox.Show("Naziv vijka ne smije sadržavati '/' u sebi!");
+            }
+            
         }
 
         public void Refresh()
@@ -88,6 +93,31 @@ namespace ScrewApp
                 }
             }
            
+        }
+
+       
+
+        private void listBoxScrew_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            
+            
+                imgIzmjeni.Source = null; 
+                Screw s = listBoxScrew.SelectedItem as Screw;
+
+                if (s != null)
+                {
+                    foreach (var screw in context.Screw)
+                    {
+                        if (screw.sName == s.sName)
+                        {
+                            string imagePath = @"\screw-photos\" + screw.sName+".png";
+                            imgIzmjeni.Source = new BitmapImage(new Uri(imagePath, UriKind.Relative));
+                            break;
+                        }
+                    }
+                }
+            
+
         }
     }
 }
