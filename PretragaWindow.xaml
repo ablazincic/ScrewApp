@@ -7,7 +7,19 @@
         mc:Ignorable="d"
         Title="PretragaWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <Grid Background="#FF212529">
-        <Label Content="Copyright ©ablazincic 2024" HorizontalAlignment="Center" Margin="0,373,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="Microsoft YaHei UI" Foreground="White"/>
+        <Label Content="Copyright ©ablazincic 2024" HorizontalAlignment="Center" Margin="0,373,0,0" VerticalAlignment="Top" FontFamily="SF Pro Display" Foreground="White" FontSize="10"/>
+        <Label Content="Upiši naziv vijka:" HorizontalAlignment="Left" Margin="130,90,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="SF Pro Display" FontSize="22"/>
+        <ListBox x:Name="lbPretraga"  Margin="60,158,60,77" d:ItemsSource="{d:SampleData ItemCount=5}" Background="#FF3A3F42" FontFamily="SF Pro Display" Foreground="White" FontSize="14"/>
+        <Grid Margin="60,138,60,0" VerticalAlignment="Top" Height="20" Background="#FF4A4F54">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="ID" Foreground="White" FontWeight="Bold" HorizontalAlignment="Left" FontFamily="SF Pro Display" Margin="5,4,0,-4"/>
+            <TextBlock Text="Naziv" Foreground="White" FontWeight="Bold" HorizontalAlignment="Left" FontFamily="SF Pro Display" Margin="30,4,0,-4"/>
+        </Grid>
+        <TextBox x:Name="txtPretraga" HorizontalAlignment="Left" Margin="295,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="23" FontFamily="SF Pro Display" FontSize="13" TextChanged="txtPretraga_TextChanged"/>
 
     </Grid>
 </Window>

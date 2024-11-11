@@ -18,7 +18,7 @@ namespace ScrewApp
         public string sName { get; set; }
         public override string ToString()
         {
-            return ID + " " + sName;
+            return ID + " | " + sName;
         }
     }
 }

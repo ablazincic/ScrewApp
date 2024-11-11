@@ -27,12 +27,12 @@ namespace ScrewApp
             Refresh();
             
         }
-        static ScrewAppDBEntities context = new ScrewAppDBEntities();
+       public static ScrewAppDBEntities context = new ScrewAppDBEntities();
 
         private void IzmjenaWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            e.Cancel = true; // Sprečava zatvaranje prozora
-            this.Hide(); // Sakriva prozor umesto da ga zatvori
+            e.Cancel = true; 
+            this.Hide(); 
 
             // Prikaz glavnog prozora
             var window = new MainWindow();

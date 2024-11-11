@@ -3,15 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\anton\\Desktop\\ScrewApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC4C3A9D-8EB6-4A97-A8A8-6B5009911434}|ScrewApp.csproj|c:\\users\\anton\\desktop\\screwapp\\izmjenawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC4C3A9D-8EB6-4A97-A8A8-6B5009911434}|ScrewApp.csproj|solutionrelative:izmjenawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC4C3A9D-8EB6-4A97-A8A8-6B5009911434}|ScrewApp.csproj|c:\\users\\anton\\desktop\\screwapp\\pretragawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC4C3A9D-8EB6-4A97-A8A8-6B5009911434}|ScrewApp.csproj|solutionrelative:pretragawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC4C3A9D-8EB6-4A97-A8A8-6B5009911434}|ScrewApp.csproj|C:\\Users\\anton\\Desktop\\ScrewApp\\izmjenawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{DC4C3A9D-8EB6-4A97-A8A8-6B5009911434}|ScrewApp.csproj|c:\\users\\anton\\desktop\\screwapp\\izmjenawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{DC4C3A9D-8EB6-4A97-A8A8-6B5009911434}|ScrewApp.csproj|solutionrelative:izmjenawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC4C3A9D-8EB6-4A97-A8A8-6B5009911434}|ScrewApp.csproj|C:\\Users\\anton\\Desktop\\ScrewApp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{DC4C3A9D-8EB6-4A97-A8A8-6B5009911434}|ScrewApp.csproj|c:\\users\\anton\\desktop\\screwapp\\pretragawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DC4C3A9D-8EB6-4A97-A8A8-6B5009911434}|ScrewApp.csproj|solutionrelative:pretragawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC4C3A9D-8EB6-4A97-A8A8-6B5009911434}|ScrewApp.csproj|C:\\Users\\anton\\Desktop\\ScrewApp\\izmjenawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC4C3A9D-8EB6-4A97-A8A8-6B5009911434}|ScrewApp.csproj|solutionrelative:izmjenawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC4C3A9D-8EB6-4A97-A8A8-6B5009911434}|ScrewApp.csproj|c:\\users\\anton\\desktop\\screwapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{DC4C3A9D-8EB6-4A97-A8A8-6B5009911434}|ScrewApp.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -31,14 +39,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IzmjenaWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\anton\\Desktop\\ScrewApp\\IzmjenaWindow.xaml.cs",
-              "RelativeDocumentMoniker": "IzmjenaWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\anton\\Desktop\\ScrewApp\\IzmjenaWindow.xaml.cs*",
-              "RelativeToolTip": "IzmjenaWindow.xaml.cs*",
-              "ViewState": "AgIAADEAAAAAAAAAAAAYwD0AAABPAAAAAAAAAA==",
+              "Title": "PretragaWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\Desktop\\ScrewApp\\PretragaWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PretragaWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\anton\\Desktop\\ScrewApp\\PretragaWindow.xaml.cs*",
+              "RelativeToolTip": "PretragaWindow.xaml.cs*",
+              "ViewState": "AgIAACIAAAAAAAAAAAAIwC0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T17:31:56.748Z",
+              "WhenOpened": "2024-11-11T22:16:43.486Z",
               "EditorCaption": ""
             },
             {
@@ -50,18 +58,45 @@
               "ToolTip": "C:\\Users\\anton\\Desktop\\ScrewApp\\IzmjenaWindow.xaml",
               "RelativeToolTip": "IzmjenaWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-06T17:26:32.367Z"
+              "WhenOpened": "2024-11-11T22:13:02.017Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "PretragaWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\anton\\Desktop\\ScrewApp\\PretragaWindow.xaml",
+              "RelativeDocumentMoniker": "PretragaWindow.xaml",
+              "ToolTip": "C:\\Users\\anton\\Desktop\\ScrewApp\\PretragaWindow.xaml",
+              "RelativeToolTip": "PretragaWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-11T21:16:51.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IzmjenaWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\Desktop\\ScrewApp\\IzmjenaWindow.xaml.cs",
+              "RelativeDocumentMoniker": "IzmjenaWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\anton\\Desktop\\ScrewApp\\IzmjenaWindow.xaml.cs",
+              "RelativeToolTip": "IzmjenaWindow.xaml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwB0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:31:56.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\anton\\Desktop\\ScrewApp\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "C:\\Users\\anton\\Desktop\\ScrewApp\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-06T17:25:30.719Z"
+              "WhenOpened": "2024-11-06T17:25:30.719Z",
+              "EditorCaption": ""
             }
           ]
         }

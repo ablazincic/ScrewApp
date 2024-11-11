@@ -34,8 +34,28 @@ namespace ScrewApp
             var window = new MainWindow();
             window.Show();
 
+           
+
         }
 
+        private void txtPretraga_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            var pretraga = txtPretraga.Text.ToLower();
+            lbPretraga.Items.Clear();
+            //var filtriraniVijci = IzmjenaWindow.context.Screw.Where(s => s.sName.Contains(pretraga)).ToList();
+            foreach (var s in IzmjenaWindow.context.Screw.ToList())
+            {
+                if (s.sName.Contains(pretraga))
+                {
+                   
+                    lbPretraga.Items.Add(s);
+                  
 
+                }
+            }
+           
+
+           
+        }
     }
 }
