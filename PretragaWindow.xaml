@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ScrewApp"
         mc:Ignorable="d"
-        Title="PretragaWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+        Title="PretragaWindow" Height="450" Width="800" Icon="/icon/screw.png" WindowStartupLocation="CenterScreen">
     <Grid Background="#FF212529">
         <Label Content="Copyright ©ablazincic 2024" HorizontalAlignment="Center" Margin="0,373,0,0" VerticalAlignment="Top" FontFamily="SF Pro Display" Foreground="White" FontSize="10"/>
         <Label Content="Upiši naziv vijka:" HorizontalAlignment="Left" Margin="130,90,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="SF Pro Display" FontSize="22"/>

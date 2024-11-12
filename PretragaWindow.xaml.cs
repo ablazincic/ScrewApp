@@ -47,7 +47,7 @@ namespace ScrewApp
             {
                 if (s.sName.Contains(pretraga))
                 {
-                   
+                    
                     lbPretraga.Items.Add(s);
                   
 

@@ -29,15 +29,9 @@
                     <TranslateTransform/>
                 </TransformGroup>
             </ListBox.RenderTransform>
-            <ListBoxItem IsHitTestVisible="False" Focusable="False" Background="DarkGray">
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock Text="ID" Width="50" FontWeight="Bold" Foreground="White" />
-                    <TextBlock Text="NAME" Width="150" FontWeight="Bold" Foreground="White" />
-                </StackPanel>
-            </ListBoxItem>
         </ListBox>
         <Button x:Name="btnIzbrisi" Content="Izbriši" HorizontalAlignment="Left" Margin="665,0,0,0" VerticalAlignment="Center" Width="80" Height="30" FontFamily="SF Pro Display" FontWeight="Bold" FontSize="15" Click="btnIzbrisi_Click"/>
-        <Button x:Name="btnAzuriraj1" Content="Ažuriraj" HorizontalAlignment="Left" Margin="530,0,0,0" VerticalAlignment="Center" Width="80" Height="30" FontFamily="SF Pro Display" FontWeight="Bold" FontSize="15"/>
+        <Button x:Name="btnAzuriraj1" Content="Ažuriraj" HorizontalAlignment="Left" Margin="530,0,0,0" VerticalAlignment="Center" Width="80" Height="30" FontFamily="SF Pro Display" FontWeight="Bold" FontSize="15" Click="btnAzuriraj1_Click"/>
         <Image x:Name="imgIzmjeni" HorizontalAlignment="Left" Height="130" Margin="134,202,0,0" VerticalAlignment="Top" Width="133"/>
     </Grid>
 </Window>

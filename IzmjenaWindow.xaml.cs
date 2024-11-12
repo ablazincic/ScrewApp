@@ -119,5 +119,20 @@ namespace ScrewApp
             
 
         }
+
+        private void btnAzuriraj1_Click(object sender, RoutedEventArgs e)
+        {
+            
+            Screw updateScrew = listBoxScrew.SelectedItem as Screw;
+            UpdateWindow updateWin = new UpdateWindow(updateScrew, this);
+            updateWin.Show();
+         
+            
+
+         
+          
+
+
+        }
     }
 }

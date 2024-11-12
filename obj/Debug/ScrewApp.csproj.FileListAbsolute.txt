@@ -56,3 +56,9 @@ C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp.csproj.CoreCompileInputs.cach
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp.csproj.Up2Date
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp.exe
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp.pdb
+C:\Users\anton\Desktop\ScrewApp\obj\Debug\UpdateWindow.g.cs
+C:\Users\anton\Desktop\ScrewApp\obj\Debug\UpdateWindow.baml
+C:\Users\anton\Desktop\ScrewApp\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\anton\Desktop\ScrewApp\bin\Debug\itextsharp.dll
+C:\Users\anton\Desktop\ScrewApp\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\anton\Desktop\ScrewApp\bin\Debug\itextsharp.xml

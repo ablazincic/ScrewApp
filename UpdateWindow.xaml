@@ -1,0 +1,18 @@
+﻿<Window x:Class="ScrewApp.UpdateWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ScrewApp"
+        mc:Ignorable="d"
+        Title="UpdateWindow" Height="250" Width="500">
+    <Grid Background="#FF212529" Width="500" Height="250">
+        <Label Content="Copyright ©ablazincic 2024" HorizontalAlignment="Center" Margin="0,191,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="SF Pro Display" Foreground="White"/>
+        <TextBox x:Name="txtNaziv" HorizontalAlignment="Left" Margin="229,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="SF Pro Display" Height="18" FontSize="14"/>
+        <TextBox x:Name="txtID" HorizontalAlignment="Left" Margin="156,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="54" FontFamily="SF Pro Display" Height="18" FontSize="14"/>
+        <Label Content="Naziv" HorizontalAlignment="Left" Margin="272,73,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="SF Pro Display" Foreground="White" Height="25"/>
+        <Label Content="ID" HorizontalAlignment="Left" Margin="171,71,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="SF Pro Display" Foreground="White" Height="30"/>
+        <Label Content="Ažuriranje vijka" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="22" FontFamily="SF Pro Display" Foreground="White" FontWeight="Bold"/>
+        <Button x:Name="btnPotvrdi" Content="Potvrdi promjene" HorizontalAlignment="Center" Margin="0,147,0,0" VerticalAlignment="Top" FontFamily="SF Pro Display" Height="27" Width="128" Click="btnPotvrdi_Click"/>
+    </Grid>
+</Window>
