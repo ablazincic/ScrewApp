@@ -37,7 +37,6 @@ C:\Users\anton\Desktop\ScrewApp\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\anton\Desktop\ScrewApp\bin\Debug\EntityFramework.xml
 C:\Users\anton\Desktop\ScrewApp\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp.csproj.AssemblyReference.cache
-C:\Users\anton\Desktop\ScrewApp\obj\Debug\IspisWindow.g.cs
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\IzmjenaWindow.g.cs
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\MainWindow.g.cs
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\PretragaWindow.g.cs
@@ -45,7 +44,6 @@ C:\Users\anton\Desktop\ScrewApp\obj\Debug\App.g.cs
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp_Content.g.cs
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp_MarkupCompile.cache
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp_MarkupCompile.lref
-C:\Users\anton\Desktop\ScrewApp\obj\Debug\IspisWindow.baml
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\IzmjenaWindow.baml
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\MainWindow.baml
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\PretragaWindow.baml

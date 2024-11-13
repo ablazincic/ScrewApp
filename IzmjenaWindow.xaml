@@ -9,7 +9,7 @@
     <Grid Background="#FF212529">
         <Label Content="Copyright ©ablazincic 2024" HorizontalAlignment="Center" Margin="0,373,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="SF Pro Display" Foreground="White"/>
         <Button x:Name="btnDodaj" Content="Dodaj" HorizontalAlignment="Left" Margin="160,124,0,0" VerticalAlignment="Top" Width="80" Height="30" FontSize="15" FontWeight="Bold" FontFamily="SF Pro Display" Click="btnDodaj_Click"/>
-        <TextBox x:Name="txtNaziv" HorizontalAlignment="Left" Margin="134,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130" Height="24" FontFamily="SF Pro Display"/>
+        <TextBox x:Name="txtNaziv" HorizontalAlignment="Left" Margin="134,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130" Height="24" FontFamily="SF Pro Display" FontSize="14"/>
         <Label Content="Naziv vijka" HorizontalAlignment="Left" Margin="37,80,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="SF Pro Display" Foreground="White" FontWeight="Bold"/>
         <Grid Margin="515,20,36,0" VerticalAlignment="Top" Height="30" Background="#FF4A4F54">
             <Grid.ColumnDefinitions>

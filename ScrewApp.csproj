@@ -90,9 +90,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="IspisWindow.xaml.cs">
-      <DependentUpon>IspisWindow.xaml</DependentUpon>
-    </Compile>
     <Compile Include="IzmjenaWindow.xaml.cs">
       <DependentUpon>IzmjenaWindow.xaml</DependentUpon>
     </Compile>
@@ -120,10 +117,6 @@
     <Compile Include="UpdateWindow.xaml.cs">
       <DependentUpon>UpdateWindow.xaml</DependentUpon>
     </Compile>
-    <Page Include="IspisWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="IzmjenaWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

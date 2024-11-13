@@ -28,6 +28,7 @@ namespace ScrewApp
             txtID.Text = s.ID.ToString();
             txtNaziv.Text = s.sName;
             izmjena = i;
+            txtID.IsReadOnly = true;
 
         }
 

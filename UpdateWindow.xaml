@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ScrewApp"
         mc:Ignorable="d"
-        Title="UpdateWindow" Height="250" Width="500">
+        Title="UpdateWindow" Height="250" Width="500" Icon="/icon/screw.png">
     <Grid Background="#FF212529" Width="500" Height="250">
         <Label Content="Copyright ©ablazincic 2024" HorizontalAlignment="Center" Margin="0,191,0,0" VerticalAlignment="Top" FontSize="10" FontFamily="SF Pro Display" Foreground="White"/>
         <TextBox x:Name="txtNaziv" HorizontalAlignment="Left" Margin="229,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="SF Pro Display" Height="18" FontSize="14"/>
-        <TextBox x:Name="txtID" HorizontalAlignment="Left" Margin="156,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="54" FontFamily="SF Pro Display" Height="18" FontSize="14"/>
+        <TextBox x:Name="txtID" HorizontalAlignment="Left" Margin="156,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="54" FontFamily="SF Pro Display" Height="18" FontSize="14" Cursor="Arrow" Background="#FFD4D0D0"/>
         <Label Content="Naziv" HorizontalAlignment="Left" Margin="272,73,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="SF Pro Display" Foreground="White" Height="25"/>
         <Label Content="ID" HorizontalAlignment="Left" Margin="171,71,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="SF Pro Display" Foreground="White" Height="30"/>
         <Label Content="Ažuriranje vijka" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="22" FontFamily="SF Pro Display" Foreground="White" FontWeight="Bold"/>
