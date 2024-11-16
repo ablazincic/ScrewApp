@@ -20,6 +20,7 @@ using Microsoft.Win32;
 
 using iTextParagraph = iTextSharp.text.Paragraph;
 using iTextRectangle = iTextSharp.text.Rectangle;
+using iTextSharp.text.pdf.draw;
 
 
 namespace ScrewApp
@@ -106,46 +107,34 @@ namespace ScrewApp
             saveFileDialog.Filter = "PDF  (*.pdf)|*.pdf";
             saveFileDialog.FileName = "Vijci";
             saveFileDialog.Title = "Spremi kao PDF";
+           
+            Document pdfDocument = new Document(PageSize.A4);
+            LineSeparator line = new LineSeparator(1f, 100, BaseColor.BLACK, Element.ALIGN_CENTER, -1); // Line settings
+
+
+            BaseFont baseFont = BaseFont.CreateFont(BaseFont.HELVETICA, BaseFont.CP1250, BaseFont.EMBEDDED);
+            Font titleFont = new Font(baseFont, 32, Font.BOLD);
+            Font dateFont = new Font(baseFont, 10);
+            Font headerFont = new Font(baseFont, 12, Font.BOLD);
+            Font screwFont = new Font(baseFont, 12, Font.NORMAL);
 
             if (rezultat == MessageBoxResult.Yes)
-            {
-                
-            }
-            else if(rezultat == MessageBoxResult.No)
             {
                 saveFileDialog.ShowDialog();
                 string putanja = saveFileDialog.FileName;
 
-                Document pdfDocument = new Document(PageSize.A4);
-    
+                
+
                 PdfWriter.GetInstance(pdfDocument, new FileStream(putanja, FileMode.Create));
                 pdfDocument.Open();
-          
-
-                Font TitleFont = new Font();
-                TitleFont.IsBold();
-                TitleFont.Size = 32;
-
-                Font dateFont = new Font();
-                dateFont.Size = 10;
-
-                Font headerFont = new Font();
-                headerFont.IsBold();
-
-                //iTextParagraph title = new iTextParagraph("Vijci",TitleFont);
-                //title.Alignment = Element.ALIGN_CENTER;
-                //title.SpacingAfter = 20;
-
-                //iTextParagraph date = new iTextParagraph("Kreirano "+DateTime.Now.ToString("dd.MM.yyyy HH:mm."));
-                //date.Alignment = Element.ALIGN_RIGHT;
 
 
-                //pdfDocument.Add(title);
+             
 
                 string formattedDate = DateTime.Now.ToString("dd.MM.yyyy HH:mm");
 
-                Chunk Title = new Chunk("Popis Vijaka",TitleFont);
-                Chunk Datum = new Chunk("kreirano ".PadLeft(45)+formattedDate,dateFont);
+                Chunk Title = new Chunk("Popis Vijaka", titleFont);
+                Chunk Datum = new Chunk("kreirano ".PadLeft(45) + formattedDate, dateFont);
 
                 Phrase elementi = new Phrase();
 
@@ -159,21 +148,98 @@ namespace ScrewApp
 
                 pdfDocument.Add(naslovnica);
 
-                iTextParagraph header = new iTextParagraph("ID".PadRight(10) + "Naziv vijka",headerFont);
+                iTextParagraph header = new iTextParagraph("ID".PadRight(10) + "Naziv vijka", headerFont);
                 header.SpacingAfter = 15;
 
                 pdfDocument.Add(header);
-              
+
+
+                foreach (var s in IzmjenaWindow.context.Screw.ToList())
+                { 
+
+                    iTextParagraph screwText = new iTextParagraph(s.ID.ToString().PadRight(10) + s.sName.ToString(), screwFont);
+                    pdfDocument.Add(screwText);
+
+
+
+                    string projectDir = Directory.GetCurrentDirectory();
+                    string imagePath = System.IO.Path.Combine(projectDir, "..\\..\\photos", s.sName + ".png");
+
+                    if (File.Exists(imagePath))
+                    {
+                        
+                        iTextSharp.text.Image screwImage = iTextSharp.text.Image.GetInstance(imagePath);
+                        screwImage.ScaleToFit(100, 100);
+
+
+                     
+                        pdfDocument.Add(screwImage);
+                       
+                    }
+                    else
+                    {
+                        pdfDocument.Add(new iTextParagraph("No image available for this screw."));
+                    }
+
+               
+
+
+
+             
+                   
+
+
+                }
+            }
+            else if (rezultat == MessageBoxResult.No)
+            {
+                saveFileDialog.ShowDialog();
+                string putanja = saveFileDialog.FileName;
+
+                
+
+                PdfWriter.GetInstance(pdfDocument, new FileStream(putanja, FileMode.Create));
+                pdfDocument.Open();
+
+
+
+
+                string formattedDate = DateTime.Now.ToString("dd.MM.yyyy HH:mm");
+
+                Chunk Title = new Chunk("Popis Vijaka", titleFont);
+                Chunk Datum = new Chunk("kreirano ".PadLeft(45) + formattedDate, dateFont);
+
+                Phrase elementi = new Phrase();
+
+                elementi.Add(Title);
+                elementi.Add(Datum);
+
+                iTextParagraph naslovnica = new iTextParagraph(elementi);
+
+                naslovnica.Alignment = Element.ALIGN_CENTER;
+                naslovnica.SpacingAfter = 70;
+
+                pdfDocument.Add(naslovnica);
+
+                iTextParagraph header = new iTextParagraph("ID".PadRight(10) + "Naziv vijka", headerFont);
+                header.SpacingAfter = 15;
+
+                pdfDocument.Add(header);
+
 
                 foreach (var s in IzmjenaWindow.context.Screw.ToList())
                 {
-                    pdfDocument.Add(new iTextParagraph(s.ID.ToString().PadRight(10)+s.sName));
+                    iTextParagraph screwText = new iTextParagraph(s.ID.ToString().PadRight(10) + s.sName.ToString(), screwFont);
+                    pdfDocument.Add(screwText);
+
                 }
-                //pdfDocument.Add(date);
-                pdfDocument.CloseDocument();
-                //MessageBox.Show("dokumenat je dovršen.");
+
+
 
             }
+
+            pdfDocument.CloseDocument();
+            MessageBox.Show("Uspješno izrađena PDF datoteka!");
 
         }
     }

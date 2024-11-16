@@ -11,7 +11,7 @@
         <Button x:Name="btnDodaj" Content="Dodaj" HorizontalAlignment="Left" Margin="160,124,0,0" VerticalAlignment="Top" Width="80" Height="30" FontSize="15" FontWeight="Bold" FontFamily="SF Pro Display" Click="btnDodaj_Click"/>
         <TextBox x:Name="txtNaziv" HorizontalAlignment="Left" Margin="134,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130" Height="24" FontFamily="SF Pro Display" FontSize="14"/>
         <Label Content="Naziv vijka" HorizontalAlignment="Left" Margin="37,80,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="SF Pro Display" Foreground="White" FontWeight="Bold"/>
-        <Grid Margin="515,20,36,0" VerticalAlignment="Top" Height="30" Background="#FF4A4F54">
+        <Grid Margin="422,20,36,0" VerticalAlignment="Top" Height="30" Background="#FF4A4F54">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
@@ -20,7 +20,7 @@
             <TextBlock Text="ID" Foreground="White" FontWeight="Bold" HorizontalAlignment="Left" FontFamily="SF Pro Display" Margin="5,4,0,-4"/>
             <TextBlock Text="Naziv" Foreground="White" FontWeight="Bold" HorizontalAlignment="Left" FontFamily="SF Pro Display" Margin="30,4,0,-4"/>
         </Grid>
-        <ListBox x:Name="listBoxScrew" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="515,42,36,243" Background="#FF3A3F42" RenderTransformOrigin="0.5,0.5" FontFamily="SF Pro Display" FontSize="16" SelectionChanged="listBoxScrew_SelectionChanged" Foreground="White">
+        <ListBox x:Name="listBoxScrew" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="422,42,36,153" Background="#FF3A3F42" RenderTransformOrigin="0.5,0.5" FontFamily="SF Pro Display" FontSize="16" SelectionChanged="listBoxScrew_SelectionChanged" Foreground="White">
             <ListBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -30,8 +30,9 @@
                 </TransformGroup>
             </ListBox.RenderTransform>
         </ListBox>
-        <Button x:Name="btnIzbrisi" Content="Izbriši" HorizontalAlignment="Left" Margin="665,0,0,0" VerticalAlignment="Center" Width="80" Height="30" FontFamily="SF Pro Display" FontWeight="Bold" FontSize="15" Click="btnIzbrisi_Click"/>
-        <Button x:Name="btnAzuriraj1" Content="Ažuriraj" HorizontalAlignment="Left" Margin="530,0,0,0" VerticalAlignment="Center" Width="80" Height="30" FontFamily="SF Pro Display" FontWeight="Bold" FontSize="15" Click="btnAzuriraj1_Click"/>
-        <Image x:Name="imgIzmjeni" HorizontalAlignment="Left" Height="130" Margin="134,202,0,0" VerticalAlignment="Top" Width="133"/>
+        <Button x:Name="btnIzbrisi" Content="Izbriši" HorizontalAlignment="Left" Margin="623,300,0,0" VerticalAlignment="Top" Width="80" Height="30" FontFamily="SF Pro Display" FontWeight="Bold" FontSize="15" Click="btnIzbrisi_Click"/>
+        <Button x:Name="btnAzuriraj1" Content="Ažuriraj" HorizontalAlignment="Left" Margin="479,300,0,0" VerticalAlignment="Top" Width="80" Height="30" FontFamily="SF Pro Display" FontWeight="Bold" FontSize="15" Click="btnAzuriraj1_Click"/>
+        <Image x:Name="imgIzmjeni" HorizontalAlignment="Left" Height="130" Margin="134,217,0,0" VerticalAlignment="Top" Width="133"/>
+        <Button x:Name="btnSlika" Content="Dodaj Sliku!" HorizontalAlignment="Left" Margin="160,172,0,0" VerticalAlignment="Top" Height="30" Width="80" FontWeight="Bold" FontFamily="SF Pro Display" Click="btnSlika_Click"/>
     </Grid>
 </Window>

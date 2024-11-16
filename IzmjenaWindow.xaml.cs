@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -103,20 +105,34 @@ namespace ScrewApp
             
                 imgIzmjeni.Source = null; 
                 Screw s = listBoxScrew.SelectedItem as Screw;
-
-                if (s != null)
+            if (s != null)
+            {
+                foreach (var screw in context.Screw)
                 {
-                    foreach (var screw in context.Screw)
+                    if (screw==s)
                     {
-                        if (screw.sName == s.sName)
-                        {
-                            string imagePath = @"\screw-photos\" + screw.sName+".png";
-                            imgIzmjeni.Source = new BitmapImage(new Uri(imagePath, UriKind.Relative));
-                            break;
-                        }
+
+                   
+                    string projectDir = Directory.GetCurrentDirectory();
+                    string imagePath = System.IO.Path.Combine(projectDir, "..\\..\\photos", screw.sName + ".png");
+
+
+                    if (File.Exists(imagePath))
+                    {
+                        imgIzmjeni.Source = new BitmapImage(new Uri(imagePath, UriKind.Absolute));
+                        imagePath = null;
+                    }
+
+                    else
+                    {
+                        MessageBox.Show($"Image not found: {imagePath}");
+                    }
+                    break;
+
                     }
                 }
-            
+            }
+
 
         }
 
@@ -133,6 +149,24 @@ namespace ScrewApp
           
 
 
+        }
+
+        private void btnSlika_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog dialog = new OpenFileDialog();
+            dialog.Title = "Odaberi fotografiju.";
+            dialog.Filter = "Image files *.png| *.png";
+            dialog.ShowDialog();
+            string sourceFilePath = dialog.FileName;
+
+            string projectDir = Directory.GetCurrentDirectory(); 
+            string targetDir = System.IO.Path.Combine(projectDir, "..\\..\\photos");
+            string targetFilePath = System.IO.Path.Combine(targetDir, System.IO.Path.GetFileName(sourceFilePath));
+
+           
+           
+            
+            File.Copy(sourceFilePath, targetFilePath, overwrite: true);
         }
     }
 }

@@ -32,14 +32,19 @@ C:\Users\anton\Desktop\ScrewApp\bin\Debug\ScrewAppDB_log.ldf
 C:\Users\anton\Desktop\ScrewApp\bin\Debug\ScrewApp.exe.config
 C:\Users\anton\Desktop\ScrewApp\bin\Debug\ScrewApp.exe
 C:\Users\anton\Desktop\ScrewApp\bin\Debug\ScrewApp.pdb
+C:\Users\anton\Desktop\ScrewApp\bin\Debug\BouncyCastle.Cryptography.dll
 C:\Users\anton\Desktop\ScrewApp\bin\Debug\EntityFramework.dll
 C:\Users\anton\Desktop\ScrewApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\anton\Desktop\ScrewApp\bin\Debug\itextsharp.dll
+C:\Users\anton\Desktop\ScrewApp\bin\Debug\BouncyCastle.Cryptography.xml
 C:\Users\anton\Desktop\ScrewApp\bin\Debug\EntityFramework.xml
 C:\Users\anton\Desktop\ScrewApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\anton\Desktop\ScrewApp\bin\Debug\itextsharp.xml
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp.csproj.AssemblyReference.cache
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\IzmjenaWindow.g.cs
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\MainWindow.g.cs
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\PretragaWindow.g.cs
+C:\Users\anton\Desktop\ScrewApp\obj\Debug\UpdateWindow.g.cs
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\App.g.cs
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp_Content.g.cs
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp_MarkupCompile.cache
@@ -47,6 +52,7 @@ C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp_MarkupCompile.lref
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\IzmjenaWindow.baml
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\MainWindow.baml
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\PretragaWindow.baml
+C:\Users\anton\Desktop\ScrewApp\obj\Debug\UpdateWindow.baml
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp.g.resources
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp.Properties.Resources.resources
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp.csproj.GenerateResource.cache
@@ -54,9 +60,3 @@ C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp.csproj.CoreCompileInputs.cach
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp.csproj.Up2Date
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp.exe
 C:\Users\anton\Desktop\ScrewApp\obj\Debug\ScrewApp.pdb
-C:\Users\anton\Desktop\ScrewApp\obj\Debug\UpdateWindow.g.cs
-C:\Users\anton\Desktop\ScrewApp\obj\Debug\UpdateWindow.baml
-C:\Users\anton\Desktop\ScrewApp\bin\Debug\BouncyCastle.Cryptography.dll
-C:\Users\anton\Desktop\ScrewApp\bin\Debug\itextsharp.dll
-C:\Users\anton\Desktop\ScrewApp\bin\Debug\BouncyCastle.Cryptography.xml
-C:\Users\anton\Desktop\ScrewApp\bin\Debug\itextsharp.xml

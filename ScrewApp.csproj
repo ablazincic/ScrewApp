@@ -17,6 +17,7 @@
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -29,7 +30,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -162,6 +162,7 @@
     </EmbeddedResource>
     <Resource Include="fonts\SFPRODISPLAYBOLD.OTF" />
     <Resource Include="fonts\SFPRODISPLAYREGULAR.OTF" />
+    <Resource Include="fonts\arialuni.ttf" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -192,8 +193,6 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="icon\screw.png" />
-    <Resource Include="screw-photos\din 933 m6x10 8,8 zn.png" />
-    <Resource Include="screw-photos\din 7504p 3,9x16 zn.png" />
     <Content Include="ScrewAppDB.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -225,4 +224,8 @@
     <Error Condition="!Exists('packages\EntityFramework.6.5.1\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.5.1\build\EntityFramework.targets'))" />
   </Target>
   <Import Project="packages\EntityFramework.6.5.1\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.5.1\build\EntityFramework.targets')" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
 </Project>
